@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+.board-container {
+    margin-top: 10px;
+    background-color: rgb(194, 229, 227);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.game-over {
+    color: black;
+    background-color: grey;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    display: none;
+}
