@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+.board-container {
+    margin-top: 10px;
+    background-color: rgb(194, 229, 227);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+}
