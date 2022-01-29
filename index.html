@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body onload="init()">
+    <h1> Mine Sweeper</h1>
+    <button class="levelbtn" onclick="changeLevel(4,2)"> Easy </button>
+    <button class="levelbtn" onclick="changeLevel(8,12)"> Hard </button>
+    <button class="levelbtn" onclick="changeLevel(12,30)"> Legendary </button> </br>
+    <button class="smile" onclick="newGame()"> <span ></span> </button>
+    <div class="timer">
+        <label id="minutes">00</label><span>:</span><label id="seconds">00</label>
+    </div>
+    <div class="lives"> Remaining Lives: <span class="remaining-lives"> </span></div>
+    <!-- <div> Time: <span class="timer"></span></div> -->
+    <div> Marked Flags: <span class="flag"></span></div>
+    <div> Marked Cells: <span class="marked-cells"></span></div>
+    <!-- <div class="game-over"> Game Over, you clicked on a mine! </div> -->
+    <table class="board-container" border="1">
+    </table>
+    <div class="footer">
+        <p>Yonatan Erez</p>
+    </div>
+    <script src="js/utils.js">
+    </script>
+    <script src="js/main.js">
+    </script>
+</body>
+
+</html>

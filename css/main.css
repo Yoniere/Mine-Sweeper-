@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    background-color: rgb(41, 39, 39)
+    /* thistle */
+    /* background-image: url(/img/1603088780-4725.webp);
+    background-repeat: no-repeat; */
+}
+
+
+/* rgb(219, 201, 219); */
+
+.board-container {
+    margin-top: 10px;
+    background-color: rgb(194, 229, 227);
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    margin: auto;
+    border: 5px solid rgb(218, 215, 88);
+}
+
+.board-container td {
+    width: 30px;
+    height: 30px;
+}
+
+.board-container td:hover {
+    background-color: rgb(218, 215, 88);
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+div {
+    color: white;
+}
+
+.levelbtn {
+    background-color: rgb(218, 215, 88);
+    border-radius: 30%;
+    border: 2px solid rgb(194, 229, 227);
+    margin-bottom: 10px;
+}
+
+.levelbtn:hover {
+    background-color: yellow;
+    border-radius: 30%;
+}
+
+.smile {
+    background-color: rgb(194, 229, 227);
+    width: 40px;
+    height: 30px;
+}
+
+.game-over {
+    background-color: transparent;
+    box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
